@@ -1,0 +1,62 @@
+.new-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-container {
+    margin-top: 50px;
+}
+
+.edit-container input, .edit-container textarea {
+    margin: 0 0 15px 10px;
+    border: 1px solid rgb(186, 185, 185) !important;
+    border-radius: 5px;
+}
+
+.edit-container input:hover, .edit-container textarea:hover {
+    border: 1px solid rgb(186, 185, 185) !important;
+}
+
+.edit-container textarea {
+    width: auto;
+    height: 20% !important;
+    margin: 0 0 10px 10px;
+}
+
+.edit-inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-inputs input, .edit-inputs textarea {
+    padding: 5px;
+}
+
+.edit-coluna1 {
+    margin-right: 80px;
+}
+
+.edit-buttons {
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: 10px !important;
+}
+
+.edit-color {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 10px !important;
+    width: 95% !important;
+}
+
+.edit-tipo {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 10px !important;
+    width: 95% !important;
+    margin-bottom: 5px !important;
+}

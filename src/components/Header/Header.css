@@ -1,0 +1,26 @@
+.header-page {
+
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+.header-page .header-buttons {
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(255, 145, 0);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 10px 30px 10px;
+    background: none;
+}
+
+.header-page .header-buttons:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+        

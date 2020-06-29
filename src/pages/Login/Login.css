@@ -1,0 +1,50 @@
+.login-container { 
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 5px 10px 5px;
+    margin: 0 25px 15px;
+    border: 1px solid;
+    border-color: #ddd;
+
+}
+
+.login-form label {
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+    padding: 25px;
+}
+
+.login-submit-button {
+    margin: 30px 25px 30px;
+}
+
+.mensagem-logago-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensagem-logago-container h1 {
+    margin-top: 30vh;
+}

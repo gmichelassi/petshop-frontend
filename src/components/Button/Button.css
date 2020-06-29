@@ -1,0 +1,17 @@
+.button-component {
+    transition: 0.2s;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgb(255, 145, 0);
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.button-component:hover {
+    transition: 0.2s;
+    opacity: 1;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
